@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "DScript";
+  src: url('./DancingScript-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "DCScript";
+  src: url('./Demo_ConeriaScript.ttf') format("truetype");
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.App2 {
+  text-align: center;
+  background-color: black;
+  width: 196vw;
+  height: 80%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+
+}
+
+#title{
+  position: relative;
+  top: -80.0vh;
+ 
+  color: rgb(228, 165, 165);
+  font-family: "DCScript";
+  font-size: 7vw;
+  mix-blend-mode: screen;
+  text-align:center;
+}
+
+#title2{
+  position: relative;
+  top: -80.0vh;
+  height: 35vh;
+  color: rgb(228, 165, 165);
+  font-family: "DCScript";
+  font-size: 14vw;
+  mix-blend-mode: screen;
+  text-align:center;
+  margin-top: 10px;
+  line-height: 2.0;
+  text-rendering:optimizeLegibility;
+}
+
+
+#si {
+  width: 100%;
+  height: 90vh;
+  /*
+  transform: translateX(-8%);
+  */
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  object-fit: cover;
+}
+
+#si2 {
+  width: 100%;
+  height: 90vh;
+  /*
+  transform: translateX(-8%);
+  */
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  object-fit: cover;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

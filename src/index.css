@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+
+#menubar{
+    width: 98vw;
+    height: 12vh;
+    color: rgba(100,100,100,1.0);
+    background-color: rgba(0, 0, 0, 1.0);
+    position: relative;
+    top: -28vh;
+
+}
+
+div {
+    position:relative;
+    }
+    #nav {
+    position:absolute;
+    left:20%;top:10;
+     /* negative margin equal to half the width */
+    width:58%;
+    list-style:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4vw;
+    }
+    #nav li {
+    float:left;
+    }
+    #nav a {
+    display:block;
+    text-align:center;
+    width:10vw; /* fixed width */
+    text-decoration:none; 
+    }

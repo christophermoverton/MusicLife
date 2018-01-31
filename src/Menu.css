@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+#menubar{
+    width: 98vw;
+    height: 12vh;
+    color: rgba(100,100,100,1.0);
+    background-color: rgba(0, 0, 0, 1.0);
+    position: relative;
+    top: -28vh;
+
+}
+
+#menubar2{
+    width: 196vw;
+    
+    height: 28vh;
+    color: rgba(100,100,100,1.0);
+    background-color: rgba(0, 0, 0, 1.0);
+    position: relative;
+    top: -52vh;
+    
+}
+
+div {
+    position:relative;
+    }
+    #nav {
+    position:absolute;
+    left:20%;top:10;
+     /* negative margin equal to half the width */
+    width:58%;
+    list-style:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4vw;
+    }
+    #nav li {
+    float:left;
+    }
+    #nav a {
+    display:block;
+    text-align:center;
+    width:10vw; /* fixed width */
+    text-decoration:none; 
+    }
+
+    #nav2 {
+        position:absolute;
+        left:10%;top:20px;
+         /* negative margin equal to half the width */
+        width:65%;
+        list-style:none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5vw;
+    }
+
+    #nav2 li {
+        float:left;
+    }
+
+    #nav2 a {
+        display:block;
+        text-align:center;
+        width:25vw; /* fixed width */
+        text-decoration:none; 
+    }    
+        

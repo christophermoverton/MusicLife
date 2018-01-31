@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,400,800&effect=font-effect-vintage');
+
+.contactus{
+    background-color: rgb(58, 44, 44);
+    color: rgb(212, 159, 159);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9vw;
+    font-weight: 100;
+    height: 220vh;
+    top:-12vh;
+}
+
+.contactus2{
+    background-color: rgb(58, 44, 44);
+    color: rgb(212, 159, 159);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.8vw;
+    font-weight: 100;
+    height: 220vh;
+    top:-62vh;
+    width: 196vw;
+}
+
+.hed{
+    left: 0%;
+    top: 2%;
+    height: 80vh;
+    font-weight: 200;
+    font-size: 4.0vw;
+    text-align:center;
+}
+
+.reg{
+    font-weight: 100;
+    font-size: 1.9vw;
+}
+
+.regb{
+    font-weight: 100;
+    font-size: 2.75vw;
+}
