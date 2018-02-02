@@ -12,8 +12,8 @@ const nodemailer = require('nodemailer');
 // 2. https://accounts.google.com/DisplayUnlockCaptcha
 // For other types of transports such as Sendgrid see https://nodemailer.com/transports/
 // TODO: Configure the `gmail.email` and `gmail.password` Google Cloud environment variables.
-const gmailEmail = `christophermoverton@gmail.com`;
-const gmailPassword = `n^Gh3#zKm`;
+const gmailEmail = `musicofyourlifeandmore@gmail.com`;
+const gmailPassword = `music244andmore`;
 const mailTransport = nodemailer.createTransport({
   service: 'gmail',
   auth: {
@@ -63,7 +63,7 @@ exports.sendFEmail = functions.database.ref('messages/{uid}').onWrite(event => {
     */
       const mailOptions = {
         from: `${APP_NAME} <noreply@firebase.com>`,
-        to: `christophermoverton@gmail.com`
+        to: `rabramsmusic@gmail.com`
       };
     
       // The user subscribed to the newsletter.

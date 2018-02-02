@@ -15,7 +15,7 @@ import { BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 ReactDOM.render(
     (
   <BrowserRouter>
-    <div>
+    <div id="bc">
         <App />
         <Menu />
         <Switch class="fre">

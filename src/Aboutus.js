@@ -5,8 +5,35 @@ import './Aboutus.css';
 
 
 class Aboutus extends Component {
+    constructor(props) {
+        super(props);
+        this.updateDimensions = this.updateDimensions.bind(this);
+        this.state = {width: 0, height: 0};
+    }
+    componentDidMount() {
+        window.addEventListener("resize", this.updateDimensions);
+    }
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.updateDimensions);
+    }
+
+    updateDimensions(){
+
+        var w = window,
+            d = document,
+            documentElement = d.documentElement,
+            body = d.getElementsByTagName('body')[0],
+            width = w.innerWidth || documentElement.clientWidth || body.clientWidth,
+            height = w.innerHeight|| documentElement.clientHeight|| body.clientHeight;
+    
+            this.setState({width: width, height: height});
+            // if you are using ES2015 I'm pretty sure you can do this: this.setState({width, height});
+        }
+
   render() {
+    var swidth = this.state.width;
     const width = document.body.clientWidth;
+    const height = window.innerHeight;
     var cstate = 'aboutus';
     var cstate2 = 'par1';
     var cstate3 = 'r1';
@@ -19,19 +46,25 @@ class Aboutus extends Component {
       cstate3 = 'r12';
       cstate4 = 'r22';
     }
-    if (width >= 750){
+    if (width >= 550){
       columns = 3;
       cstate = 'aboutus';
       cstate2 = 'par1';
       cstate3 = 'r1';
       cstate4 = 'r2';
     }
+
     if (width >= 1824){
       columns = 4;
       cstate = 'aboutus';
       cstate2 = 'par1';
       cstate3 = 'r1';
       cstate4 = 'r2';
+    }
+
+    if (width >= 550 && height <= 375){
+        cstate = 'aboutus3';
+  
     }
     return (
       <div className={cstate}>
