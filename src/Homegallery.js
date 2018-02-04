@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 import P1 from './rhonda1.jpg';
 import P2 from './rhonda2.jpg';
-import P3 from './gallery1.jpg';
-import P4 from './gallery2.jpg';
-import P5 from './gallery3.jpg';
+import P3 from './cr1.jpg';
+import P4 from './cr2.jpg';
+import P5 from './cr3.jpg';
+import P6 from './cr4.jpg';
+import P7 from './cr5.jpg';
+import P8 from './cr6.jpg';
+import P9 from './cr7.jpg';
+import P10 from './cr8.jpg';
+import P11 from './cr9.jpg';
+import P12 from './cr10.jpg';
 import './Homegallery.css';
 
 import Gallery from 'react-photo-gallery';
@@ -12,7 +19,17 @@ import Lightbox from 'react-images';
 
 const photos = [
   { src: P1, width: 3, height: 2 },
-  { src: P2, width: 4, height: 5 }
+  { src: P2, width: 4, height: 5 },
+  { src: P3, width: 3, height: 2 },
+  { src: P4, width: 2, height: 3 },
+  { src: P5, width: 3, height: 2 },
+  { src: P6, width: 3, height: 2 },
+  { src: P7, width: 3, height: 2 },
+  { src: P8, width: 3, height: 2 },
+  { src: P9, width: 2, height: 3 },
+  { src: P10, width: 2, height: 3 },
+  { src: P11, width: 2, height: 3 },
+  { src: P12, width: 2, height: 3 },
 
 ];
 
@@ -76,22 +93,22 @@ class Homegallery extends React.Component {
     var cstate2 = 'titl';
     let columns = 1;
     if (width >= 100){
-      columns = 3;
+      columns = 4;
       cstate = 'boxSize2';
       cstate2 = 'titl2';
     }
     if (width >= 1024){
-      columns = 3;
+      columns = 4;
       cstate = 'boxSize';
       cstate2 = 'titl';
     }
     if (width >= 1824){
-      columns = 3;
+      columns = 4;
       cstate = 'boxSize';
       cstate2 = 'titl';
     }
     if (width >= 550 && height <= 375){
-        columns = 3;
+        columns = 4;
         cstate = 'boxSize3';
         cstate2 = 'titl3';
     }
