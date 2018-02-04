@@ -11,6 +11,9 @@ import P9 from './cr7.jpg';
 import P10 from './cr8.jpg';
 import P11 from './cr9.jpg';
 import P12 from './cr10.jpg';
+import P13 from './cr12.jpg';
+import P14 from './cr11.jpg';
+import P15 from './cr13.jpg';
 import './Homegallery.css';
 
 import Gallery from 'react-photo-gallery';
@@ -24,12 +27,15 @@ const photos = [
   { src: P4, width: 2, height: 3 },
   { src: P5, width: 3, height: 2 },
   { src: P6, width: 3, height: 2 },
-  { src: P7, width: 3, height: 2 },
+ // { src: P7, width: 3, height: 2 },
   { src: P8, width: 3, height: 2 },
   { src: P9, width: 2, height: 3 },
   { src: P10, width: 2, height: 3 },
   { src: P11, width: 2, height: 3 },
   { src: P12, width: 2, height: 3 },
+  { src: P13, width: 2, height: 3 },
+  { src: P14, width: 3, height: 2 },
+  { src: P15, width: 2, height: 3 },
 
 ];
 
