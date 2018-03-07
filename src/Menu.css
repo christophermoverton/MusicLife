@@ -37,21 +37,23 @@ div {
     }
     #nav {
     position:absolute;
-    left:20%;top:10;
+    left:8%;top:0%;
      /* negative margin equal to half the width */
-    width:58%;
+    width:80%;
     list-style:none;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.95vw;
     }
     #nav li {
     float:left;
+    color: white;
     }
     #nav a {
     display:block;
     text-align:center;
-    width:10vw; /* fixed width */
+    width:15vw; /* fixed width */
     text-decoration:none; 
+    color: rgb(143, 59, 59);
     }
 
     #nav2 {

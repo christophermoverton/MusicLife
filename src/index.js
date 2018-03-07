@@ -26,6 +26,7 @@ ReactDOM.render(
           <Route exact path='/videos' component={Videos} />
           <Route exact path='/contactus' component={Contactus} />
       </Switch>
+      
     </div>
   </BrowserRouter>
 ), document.getElementById('root'))
